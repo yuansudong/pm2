@@ -9,7 +9,7 @@ const name = uuidv4()
 app.get('/', (req, res) => {
   console.log("由一个新的请求到来:标准输出")
   console.error("由一个新的请求到来:标准错误")
-  res.send('Hello World! 新的1'+"      "+name)
+  res.send('Hello World! 新的2'+"      "+name)
 })
 
 app.listen(port, () => {
