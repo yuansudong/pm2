@@ -10,7 +10,8 @@ module.exports = {
          "ref"  : "origin/master",
          "repo" : "git@github.com:yuansudong/pm2.git",
          "path" : "/home/ubuntu/new",
-         "post-deploy" : "npm install"
+         "post-deploy" : "npm install",
+         "pre-deploy-local" : "echo 'This is a local executed command'"
       }
     }
   };
