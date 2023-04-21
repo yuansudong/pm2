@@ -9,7 +9,7 @@ module.exports = {
          "host" : ["1.14.1.37"],
          "ref"  : "origin/master",
          "repo" : "git@github.com:yuansudong/pm2.git",
-         "path" : "/home/yuansudong/new",
+         "path" : "/home/ubuntu/new",
          "post-deploy" : "npm install"
       }
     }
