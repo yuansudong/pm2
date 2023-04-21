@@ -10,7 +10,7 @@ module.exports = {
          "ref"  : "origin/master",
          "repo" : "git@github.com:yuansudong/pm2.git",
          "path" : "/home/ubuntu/new",
-         "pre-deploy" : "echo '在更新之前会执行这条命令'",
+         "pre-deploy" : "echo '在更新之前会执行这条命令 12' > ~/a.txt",
          "post-deploy" : "npm install",
          "pre-deploy-local" : "echo 'This is a local executed command'"
       }
